@@ -13,4 +13,9 @@ public class Carro {
         this.price = price;
         this.age = age;
     }
+
+
+    public String toString() {
+        return String.format("Car:%S \nPrice: %.2f$",name,price);
+    }
 }
